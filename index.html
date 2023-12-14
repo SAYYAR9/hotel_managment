@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Managment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="filter">
+            <div class="filter-item">
+                <select name="floor" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <select name="floor" id="">
+                    <option value="1">Standart</option>
+                    <option value="2">Deluxe</option>
+                    <option value="3">VIP</option>
+                </select>
+            </div>
+            <div class="filter-item">
+               <label for="used">used</label> <input type="checkbox" name="used" id="used">
+            </div>   
+            <div class="filter-item">
+                <label for="Min-price">Min.Price</label>
+                <input type="text" id="min-price">
+                <label for="max-price">Max.Price</label>
+                <input type="text" id="max-price">
+                </select>
+            </div>
+            <div class="filter-item">
+                <button>New Room</button>
+            </div>
+        </section>
+        <section class="info-table">
+            <table>
+                <thead>
+                    <th>Sira</th>
+                    <th>Nomre</th>
+                    <th>Mertebe</th>
+                    <th>Tipi</th>
+                    <th>Dolu</th>
+                    <th>Bitis</th>
+                    <th>Musteri</th>
+                    <th>Qiymet(gunluk)</th>
+                    <th>Doldur</th>
+                    <th>Bosalt</th>
+                    <th>Sil</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>109</td>
+                        <td>2</td>
+                        <td>VIP</td>
+                        <td><i class="fa-solid fa-circle-check"></i></td>
+                        <td>12:00 13.11.2023</td>
+                        <td>Sayyar Huseynov</td>
+                        <td>120</td>
+                        <td><i class="fa-solid fa-circle-plus button"></i></td>
+                        <td><i class="fa-solid fa-circle-minus button"></i></td>
+                        <td><i class="fa-solid fa-trash button"></i></td>
+                    </tr>
+                        
+                </tbody>
+            </table>
+        </section>
+        <section class="general-info">
+            <div>Umumi otaq sayi: <span></span></div>
+            <div>Bos otaq sayi: <span></span></div>
+            <div>Umumi gelir: <span></span></div>
+        </section>
+    </div>
+
+    <div class="modal">
+        <div class="title">skdjsdjk</div>
+        <div class="content">skdjsdjk</div>
+        <div class="buttons">
+            <button>Yadda saxla</button>
+            <button>Cix</button>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
